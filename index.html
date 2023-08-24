@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo_index.css">
+    <title>Whitepace</title>
+    <style>
+        .cards:hover .current-star {
+            display: none;
+        }
+
+        .cards:hover .hover-star {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#navbar"><img style=" width:100%;" src="img/logo.png" alt="logo do site"></a>
+
+        <ul class="navigation">
+            <a class="navigation-a" href="index.html">
+                <li class="navigation-a-li">HOME</li>
+                <div class="border-bottom-navigation-a transition-navbar"></div>
+            </a>
+
+            <a class="navigation-a" href="sobre.html">
+                <li class="navigation-a-li">SOBRE</li>
+                <div class="border-bottom-navigation-a transition-navbar"></div>
+            </a>
+
+            <a id="service" class="navigation-a" style="width: 10%;" href="servicos.html">
+                <li class="navigation-a-li">SERVIÇOS</li>
+                <div class="border-bottom-navigation-a transition-navbar"></div>
+            </a>
+
+            <a class="navigation-contact" href="contato.html">
+                <span class="navigation-contact-span ">CONTATO</span>
+                <div class="border-bottom-navigation-contact transition-navbar"></div>
+            </a>
+        </ul>
+    </nav>
+
+    <header class="header-master">
+        <div class="header-master-tamb">
+            <h1>Whitepace</h1>
+            <p>Construa a sua marca, conquiste o mundo sem habilidades de código ou<br>designers necessários.</p>
+            <a href="contato.html"><button class="button">Entrar em contato</button></a>
+        </div>
+    </header>
+
+    <section class="service-section">
+        <section class="section-01">
+            <div class="section-info">
+                <h2 style="font-size: 50px;">Faça mais com whitepace</h1>
+                    <p>Criação de websites, loja virtual, blogs para pequenas, médias e <br> grandes empresas. Ter um
+                        site
+                        nunca
+                        foi tão fácil.</p>
+                    <a href="contato.html"><button class="button">Entrar em contato</button></a>
+            </div>
+
+            <div class="section-img">
+                <img src="img/img-1.png" alt="img-1">
+            </div>
+        </section>
+
+        <section class="section-02">
+            <div class="section-img">
+                <img src="img/img-2.png" alt="img-1">
+            </div>
+
+            <div class="section-info">
+                <h2 style="font-size: 50px;">Ter um website <br> nunca foi tão fácil</h1>
+                    <p>Agora com a nossa empresa ter um website é algo simplesmente fácil.
+                        Basta entrar em contato que nós vamos desenvolver seu wibseite em
+                        tempo record para você conquistar o mundo.
+                    </p>
+                    <a href="contato.html"><button class="button">Entrar em contato</button></a>
+            </div>
+        </section>
+    </section>
+
+    <section class="section-cards">
+        <h1 style="font-size: 40px;">Depoimentos</h3>
+            <p style="color: grey;">Veja o que vários clientes estão falando sobre nossos serviços</p>
+            <div class="cards-area">
+                <div class="cards">
+                    <img style="max-width: 60px; border-radius: 50px; margin-bottom: 10px;" src="img/me.jpg"
+                        alt="imagem-perfil">
+
+                    <h3 id="cards-h3">Herry</h3>
+
+                    <p id="cards-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                        deleniti sed eos tempora, aut
+                        officiis eum eligendi ipsa, tenetur, incidunt veritatis! Amet maxime modi nam ab sint rem dicta
+                        ut?
+                    </p>
+
+                    <div style="width: 100%; background-color: rgb(177, 185, 186); height: 1px; margin-top: 20px;">
+                    </div>
+
+                    <div style="margin: 10px;">
+                        <!-- WEB COMPONENTS -->
+                        <star-model01></star-model01>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <img style="max-width: 60px; border-radius: 50px; margin-bottom: 10px;" src="img/me.jpg"
+                        alt="imagem-perfil">
+
+                    <h3 id="cards-h3">Herry</h3>
+
+                    <p id="cards-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                        deleniti sed eos tempora, aut
+                        officiis eum eligendi ipsa, tenetur, incidunt veritatis! Amet maxime modi nam ab sint rem dicta
+                        ut?
+                    </p>
+
+                    <div style="width: 100%; background-color: rgb(177, 185, 186); height: 1px; margin-top: 20px;">
+                    </div>
+
+                    <div style="margin-top: 10px;">
+                        <star-model01></star-model01>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <img style="max-width: 60px; border-radius: 50px; margin-bottom: 10px;" src="img/me.jpg"
+                        alt="imagem-perfil">
+
+                    <h3 id="cards-h3">Herry</h3>
+
+                    <p id="cards-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                        deleniti sed eos tempora, aut
+                        officiis eum eligendi ipsa, tenetur, incidunt veritatis! Amet maxime modi nam ab sint rem dicta
+                        ut?
+                    </p>
+
+                    <div style="width: 100%; background-color: rgb(177, 185, 186); height: 1px; margin-top: 20px;">
+                    </div>
+
+                    <div style="margin-top: 10px;">
+                        <star-model02></star-model02>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="section-logos">
+        <h3 style="font-size: 40px;">Nossos clientes</h3>
+
+        <p style="color: grey;">Prestamos serviços para todo tipo de empresa e projeto, veja alguns de nossos clientes
+        </p>
+
+        <div class="logos">
+            <img src="img/apple.png" alt="logo da apple">
+            <img src="img/microsoft.png" alt="logo da microsoft">
+            <img src="img/slack.png" alt="logo da slack">
+            <img src="img/google.png" alt="logo do google">
+        </div>
+    </section>
+
+    <section class="section-03">
+        <div style="flex: 44%;" class="section-info">
+            <h2 style="font-size: 50px;">Tenha um website <br> seguro!</h1>
+                <p>Nós trabalhamos com tecnologias atualizadas, rápidas e as mais
+                    seguras desse mercado. Fazemos backup e manutenção no seu site
+                    em tempo recorde.
+                </p>
+                <a href="contato.html"><button class="button">Entrar em contato</button></a>
+        </div>
+
+        <div style="flex: 56%; text-align: center;" class="section-img">
+            <img src="img/security.png" alt="img-security">
+        </div>
+    </section>
+
+    <footer class="footer">
+            <img class="social-media" style="border-radius: 10px; width: 34px;" src="img/facebook.png" alt="">
+            <img class="social-media" style="background-color: white; padding: 10px; border-radius: 10px; width: 34px;" src="img/instagram.png" alt="">
+            <img class="social-media" style="border-radius: 10px; width: 34px;" src="img/github.png" alt="">
+            <img class="social-media" style="border-radius: 10px; width: 34px;" src="img/linkedin.png" alt="">
+
+            <p style="color: white;">Desenvolvido por <strong><i>Devid Souza</i></strong></p>
+    </footer>
+
+    <script src="components/ratingstar.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --ifm-light-blue: rgb(0, 157, 255);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header3{
+    background-image: url("../img/background-servicos.jpg");
+    background-position-y: 30%;
+    height: 770px;
+}
+
+.service-section02 {
+    margin: 40px 80px 0 80px;
+    text-align: center;
+    /* border: 1px solid; */
+}
+
+.area-cards-service {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.cards-service {
+    cursor: pointer;
+    transition: all .3s;
+    width: 28%;
+    height: 270px;
+    background-color: rgb(194, 218, 227);
+    border-radius: 10px;
+    text-align: left;
+    text-justify: inter-cluster;
+    padding: 20px;
+    margin: 2%;
+}
+
+.cards-service img{
+    background-color: #009dff;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-left: 0;
+}
+
+.cards-service h3{
+    margin-bottom: 5px;
+}
+
+.cards-service:hover{
+    background-color: #009dff;
+    transform: scale(1.03);
+}
+
+.cards-service:hover h3{
+    color: white;
+}
+.cards-service:hover p{
+    color: white;
+}
+
+
+.area-indicators{
+    display: flex;
+    height: 270px;
+    margin-top: 50px;
+    background-color: rgb(194, 218, 227);
+    align-items: center;
+}
+
+.indicators{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.indicators div{
+    margin: 1%;
+    text-align: center;
+}
+
+.indicators img{
+    background-color: #009dff;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
