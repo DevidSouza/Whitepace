@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo_index.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
     <title>Whitepace</title>
     <style>
         .cards:hover .current-star {
@@ -18,33 +19,33 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <a href="#navbar"><img style=" width:100%;" src="img/logo.png" alt="logo do site"></a>
-
-        <ul class="navigation">
-            <a class="navigation-a" href="index.html">
-                <li class="navigation-a-li">HOME</li>
-                <div class="border-bottom-navigation-a transition-navbar"></div>
-            </a>
-
-            <a class="navigation-a" href="sobre.html">
-                <li class="navigation-a-li">SOBRE</li>
-                <div class="border-bottom-navigation-a transition-navbar"></div>
-            </a>
-
-            <a id="service" class="navigation-a" style="width: 10%;" href="servicos.html">
-                <li class="navigation-a-li">SERVIÇOS</li>
-                <div class="border-bottom-navigation-a transition-navbar"></div>
-            </a>
-
-            <a class="navigation-contact" href="contato.html">
-                <span class="navigation-contact-span ">CONTATO</span>
-                <div class="border-bottom-navigation-contact transition-navbar"></div>
-            </a>
-        </ul>
-    </nav>
-
     <header class="header-master">
+        <nav class="navbar">
+            <a href="#navbar"><img style=" width:100%;" src="img/logo.png" alt="logo do site"></a>
+    
+            <ul class="navigation">
+                <a class="navigation-a" href="index.html">
+                    <li class="navigation-a-li">HOME</li>
+                    <div class="border-bottom-navigation-a transition-navbar"></div>
+                </a>
+    
+                <a class="navigation-a" href="sobre.html">
+                    <li class="navigation-a-li">SOBRE</li>
+                    <div class="border-bottom-navigation-a transition-navbar"></div>
+                </a>
+    
+                <a id="service" class="navigation-a" style="width: 10%;" href="servicos.html">
+                    <li class="navigation-a-li">SERVIÇOS</li>
+                    <div class="border-bottom-navigation-a transition-navbar"></div>
+                </a>
+    
+                <a class="navigation-contact" href="contato.html">
+                    <span class="navigation-contact-span ">CONTATO</span>
+                    <div class="border-bottom-navigation-contact transition-navbar"></div>
+                </a>
+            </ul>
+        </nav>
+
         <div class="header-master-tamb">
             <h1>Whitepace</h1>
             <p>Construa a sua marca, conquiste o mundo sem habilidades de código ou<br>designers necessários.</p>
@@ -56,7 +57,7 @@
         <section class="section-01">
             <div class="section-info">
                 <h2 style="font-size: 50px;">Faça mais com whitepace</h1>
-                    <p>Criação de websites, loja virtual, blogs para pequenas, médias e <br> grandes empresas. Ter um
+                    <p>Criação de websites, loja virtual, blogs para pequenas, médias e grandes empresas. Ter um
                         site
                         nunca
                         foi tão fácil.</p>
@@ -69,7 +70,7 @@
         </section>
 
         <section class="section-02">
-            <div class="section-img">
+            <div class="section-img img-left">
                 <img src="img/img-2.png" alt="img-1">
             </div>
 
@@ -166,7 +167,7 @@
     </section>
 
     <section class="section-03">
-        <div style="flex: 44%;" class="section-info">
+        <div class="section-info website-seguro-info">
             <h2 style="font-size: 50px;">Tenha um website <br> seguro!</h1>
                 <p>Nós trabalhamos com tecnologias atualizadas, rápidas e as mais
                     seguras desse mercado. Fazemos backup e manutenção no seu site
@@ -175,7 +176,7 @@
                 <a href="contato.html"><button class="button">Entrar em contato</button></a>
         </div>
 
-        <div style="flex: 56%; text-align: center;" class="section-img">
+        <div class="section-img website-seguro-img">
             <img src="img/security.png" alt="img-security">
         </div>
     </section>
