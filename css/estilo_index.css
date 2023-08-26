@@ -22,7 +22,6 @@ a{
     text-decoration: none;
 }
 
-
 /*=========== HEADER ============*/
 
 
@@ -285,6 +284,15 @@ button {
     height: 315px;
     border-radius: 10px;
     background-color: rgb(169, 211, 228);
+}
+
+.cards-stars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding-top: 4px;
+    border-top: 1px solid #b1b9ba;
 }
 
 .cards h3{

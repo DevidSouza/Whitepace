@@ -1,6 +1,7 @@
 @media only screen and (max-width: 768px) {
+
     .header-master {
-        width: 900px;
+        width: 118%;
     }
 
     .navigation-contact {
@@ -62,8 +63,8 @@
 
 
     .section-logos {
-        width: 100%;
-        margin: 80px 80px 0 80px;
+        width: 106%;
+        margin: 80px 40px 0 40px;
         text-align: center;
     }
 
@@ -91,6 +92,85 @@
     }
 
     .footer{
-        width: 900px;
+        width: 118%;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width:1365px) {
+    .header-master {
+        width: 110%;
+    }
+
+    .navbar {
+        width: 100%;
+        margin: 0 5% 0 5%;
+        padding: 20px 0;
+    }
+
+    .navigation-contact {
+        width: 15%;
+    }
+
+    .service-section {
+        margin: 40px 40px 0 40px;
+        width: 106%;
+        /* border: 1px solid ; */
+    }
+
+    .section-info {
+        flex: 50%;
+        /* border: 1px solid; */
+    }
+
+    .section-img {
+        flex: 47%;
+        /* border: 1px solid; */
+    }
+
+    .img-left {
+        position: relative;
+        left: -40px;
+    }
+
+    .section-img img {
+        width: 350px;
+        height: 250px;
+    }
+
+
+
+    .section-cards {
+        width: 106%;
+        margin: 80px 40px 0 40px;
+        height: auto;
+        text-align: center;
+        /* border: 1px solid red; */
+    }
+
+    .cards-area {
+        width: 100%;
+    }
+
+    .cards {
+        width: 30%;
+        height: 290px;
+    }
+
+    
+
+
+    .section-logos {
+        width: 100%;
+        margin: 80px 40px 0 40px;
+        text-align: center;
+    }
+
+    .logos img {
+        width: 24%;
+    }
+
+    .footer{
+        width: 110%;
     }
 }
