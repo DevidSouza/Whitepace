@@ -5,7 +5,12 @@ class Star extends HTMLElement {
             <style>
 
             .hover-star{
+                transition: 1s;
                 display: none;
+            }
+
+            .current-star{
+                transition: 1s;
             }
             
             </style>
@@ -53,6 +58,11 @@ class Star02 extends HTMLElement {
         
         .hover-star{
             display: none;
+            transition: 1s;
+        }
+
+        .current-star{
+            transition: 1s;
         }
 
         </style>

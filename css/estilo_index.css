@@ -59,91 +59,54 @@ a{
 .navigation {
     /* border: 1px solid red; */
     display: flex;
-    list-style-type: none;
     align-items: center;
     justify-content: right;
     width: 80%;
 }
 
-.navigation-a {
-    display: flex;
-    flex-flow: row wrap;
-    width: 6%;
-    margin-right: 60px;
-    align-items: center;
-    justify-content: center;
-    /* border: 1px solid yellow; */
-}
-
-.navigation-a-li {
+.navigation-btn{
+    /* border: 1px solid; */
+    margin: 0 25px;
     text-align: center;
-    margin-top: 10px;
-    width: 100%;
     color: white;
 }
 
-.border-bottom-navigation-a{
-    background-color: rgba(11, 42, 133, 0.33);
-    width: 1px;
-    height: 1px;
-    margin-bottom: 7px;
-}
-
-.transition-navbar {
-    transition: width 1s;
-}
-
-.navigation-a:hover .transition-navbar {
-    width: 55px;
-    background-color: var(--ifm-light-blue);
-}
-
-.navigation-a:not(:hover) .transition-navbar{
+.navigation-btn::after{
     transition: 1s;
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: rgb(13, 131, 249);
+    display: block;
+    margin: 0 auto;
 }
 
-#service:hover .transition-navbar {
-    width: 80px;
+.navigation-btn:hover::after{
+    width: 100%;
+}
+
+.contact-btn{
+    width: 110px;
+    padding: 10px 15px;
     background-color: var(--ifm-light-blue);
-}
-#service:not(:hover) .transition-navbar {
-    transition: 1s;
-}
-
-.navigation-contact {
-    display: flex;
-    flex-flow: row wrap;
-    background: var(--ifm-light-blue);
-    margin-left: 30px;
-    width: 12%;
-    height: 40px;
     border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
 }
 
-.navigation-contact-span {
-    text-align: center;
-    margin-top: 10px;
-    width: 100%;
-    color: white;
-}
-
-.border-bottom-navigation-contact{
-    background-color: rgba(255, 255, 255, 0.254);
-    width: 1px;
-    height: 1px;
-    margin-bottom: 7px;
-}
-
-.navigation-contact:hover .transition-navbar {
-    width: 80px;
-    background-color: white;
-}
-
-.navigation-contact:not(:hover) .transition-navbar {
+.contact-btn::after{
     transition: 1s;
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-btn:hover::after{
+    width: 100%;
+}
+.contact-btn:not(:hover)::after{
+    opacity: 0.5;
 }
 
 
@@ -269,7 +232,6 @@ button {
 .cards-area{
     display: flex;
     width: 100%;
-    height: auto;
     justify-content: center;
     align-items: center;
 }
@@ -287,6 +249,7 @@ button {
 }
 
 .cards-stars{
+    transition: .5s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -296,14 +259,16 @@ button {
 }
 
 .cards h3{
+    transition: .5s;
     color: rgb(58, 55, 55);
 }
 .cards p{
+    transition: .5s;
     color: rgb(85, 84, 84);
 }
 
 .cards:hover{
-    transform: scale(1.05);
+    margin-top: -5px;
     background-color: rgb(0, 149, 255);
 }
 .cards:hover #cards-h3{

@@ -97,7 +97,7 @@
 }
 
 
-@media (min-width: 1024px) and (max-width:1365px) {
+@media (min-width: 1024px) and (max-width: 1365px) {
     .header-master {
         width: 110%;
     }
@@ -110,12 +110,6 @@
 
     .navigation-contact {
         width: 15%;
-    }
-
-    .service-section {
-        margin: 40px 40px 0 40px;
-        width: 106%;
-        /* border: 1px solid ; */
     }
 
     .section-info {
@@ -172,5 +166,284 @@
 
     .footer{
         width: 110%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .header-master {
+        width: 112%;
+    }
+
+    .navbar {
+        width: 100%;
+        margin: 0 5% 0 5%;
+        padding: 20px 0;
+    }
+
+    .navigation-contact {
+        width: 18%;
+    }
+
+    .service-section {
+        margin: 40px 40px 0 40px;
+        width: 106%;
+        /* border: 1px solid ; */
+    }
+
+    .section-info {
+        flex: 50%;
+        /* border: 1px solid; */
+    }
+
+    .section-img {
+        flex: 47%;
+        /* border: 1px solid; */
+    }
+
+    .img-left {
+        position: relative;
+        left: -40px;
+    }
+
+    .section-img img {
+        width: 350px;
+        height: 250px;
+    }
+
+
+
+    .section-cards {
+        width: 102%;
+        margin: 80px 40px 0 40px;
+        height: auto;
+        text-align: center;
+        /* border: 1px solid red; */
+    }
+
+    .cards-area {
+        width: 100%;
+    }
+
+    .cards {
+        width: 30%;
+        height: 350px;
+    }
+
+    
+
+
+    .section-logos {
+        width: 98%;
+        margin: 80px 40px 0 40px;
+        text-align: center;
+    }
+
+    .logos img {
+        width: 24%;
+    }
+
+    .section-img img {
+        width: 350px;
+        height: 250px;
+    }
+
+
+
+    .section-cards {
+        width: 101%;
+        margin: 6% 5% 0 5%;
+        height: auto;
+        text-align: center;
+        /* border: 1px solid red; */
+    }
+
+    .cards-area {
+        width: 100%;
+    }
+
+    .cards {
+        width: 30%;
+        height: 355px;
+    }
+
+
+    .section-logos {
+        width: 90%;
+        margin: 6% 5% 0 5%;
+        text-align: center;
+    }
+
+    .logos{
+        text-align: right;
+    }
+
+    .logos img {
+        width: 24%;
+    }
+
+    .section-03 {
+        width: 90%;
+        margin: 20% 5% 0 5%;
+        margin-bottom: 50px;
+        /* border: 1px solid; */
+    }
+
+    .website-seguro-info {
+        flex: 60%;
+        /* border: 1px solid; */
+    }
+
+    .website-seguro-img {
+        flex: 30%;
+        /* border: 1px solid; */
+    }
+
+    .section-img.website-seguro-img img {
+        width: 240px;
+        height: 220px;
+    }
+
+    .footer{
+        width: 112%;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .header-master {
+        width: 152%;
+    }
+
+    .navbar {
+        width: 142%;
+        margin: 0 5% 0 5%;
+        padding: 20px 0;
+        border: 1px solid;
+    }
+
+    .navigation-contact {
+        width: 25%;
+    }
+
+    .service-section {
+        margin: 40px 40px 0 40px;
+        width: 106%;
+        /* border: 1px solid ; */
+    }
+
+    .section-info {
+        flex: 50%;
+        /* border: 1px solid; */
+    }
+
+    .section-img {
+        flex: 47%;
+        /* border: 1px solid; */
+    }
+
+    .img-left {
+        position: relative;
+        left: -40px;
+    }
+
+    .section-img img {
+        width: 350px;
+        height: 250px;
+    }
+
+
+
+    .section-cards {
+        width: 102%;
+        margin: 80px 40px 0 40px;
+        height: auto;
+        text-align: center;
+        /* border: 1px solid red; */
+    }
+
+    .cards-area {
+        width: 100%;
+    }
+
+    .cards {
+        width: 30%;
+        height: 350px;
+    }
+
+    
+
+
+    .section-logos {
+        width: 98%;
+        margin: 80px 40px 0 40px;
+        text-align: center;
+    }
+
+    .logos img {
+        width: 24%;
+    }
+
+    .section-img img {
+        width: 350px;
+        height: 250px;
+    }
+
+
+
+    .section-cards {
+        width: 101%;
+        margin: 6% 5% 0 5%;
+        height: auto;
+        text-align: center;
+        /* border: 1px solid red; */
+    }
+
+    .cards-area {
+        width: 100%;
+    }
+
+    .cards {
+        width: 30%;
+        height: 355px;
+    }
+
+
+    .section-logos {
+        width: 90%;
+        margin: 6% 5% 0 5%;
+        text-align: center;
+    }
+
+    .logos{
+        text-align: right;
+    }
+
+    .logos img {
+        width: 24%;
+    }
+
+    .section-03 {
+        width: 90%;
+        margin: 20% 5% 0 5%;
+        margin-bottom: 50px;
+        /* border: 1px solid; */
+    }
+
+    .website-seguro-info {
+        flex: 60%;
+        /* border: 1px solid; */
+    }
+
+    .website-seguro-img {
+        flex: 30%;
+        /* border: 1px solid; */
+    }
+
+    .section-img.website-seguro-img img {
+        width: 240px;
+        height: 220px;
+    }
+
+    .footer{
+        width: 112%;
     }
 }
