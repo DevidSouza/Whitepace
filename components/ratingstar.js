@@ -10,20 +10,22 @@ class Star extends HTMLElement {
             }
 
             .current-star{
+                color: white;
                 transition: 1s;
             }
+
             
             </style>
             
                 <div class="current-star">
 
-                    <img class="star-blue" src="./img/blue-fill-star.png" alt="star with fill blue">
+                    <img class="blue-star" src="./img/blue-fill-star.png" alt="star with fill blue">
 
-                    <img class="star-blue" src="./img/blue-fill-star.png" alt="star with fill blue">
+                    <img class="blue-star" src="./img/blue-fill-star.png" alt="star with fill blue">
 
-                    <img class="star-blue" src="./img/blue-fill-star.png" alt="star with fill blue">
+                    <img class="blue-star" src="./img/blue-fill-star.png" alt="star with fill blue">
 
-                    <img class="star-blue" src="./img/blue-fill-star.png" alt="star with fill blue">
+                    <img class="blue-star" src="./img/blue-fill-star.png" alt="star with fill blue">
 
                     <img class="blue-border-star" src="./img/blue-border-star.png" alt="star with border blue">
 
@@ -32,13 +34,13 @@ class Star extends HTMLElement {
 
                 <div class="hover-star">
 
-                    <img class="star-white" src="./img/white-fill-star.png" alt="star with fill white">
+                    <img class="white-star" src="./img/white-fill-star.png" alt="star with fill white">
 
-                    <img class="star-white" src="./img/white-fill-star.png" alt="star with fill white">
+                    <img class="white-star" src="./img/white-fill-star.png" alt="star with fill white">
 
-                    <img class="star-white" src="./img/white-fill-star.png" alt="star with fill white">
+                    <img class="white-star" src="./img/white-fill-star.png" alt="star with fill white">
 
-                    <img class="star-white" src="./img/white-fill-star.png" alt="star with fill white">
+                    <img class="white-star" src="./img/white-fill-star.png" alt="star with fill white">
 
                     <img class="white-border-star" src="./img/white-border-star.png" alt="star with border white">
 
@@ -69,11 +71,11 @@ class Star02 extends HTMLElement {
 
         <div class="current-star">
 
-            <img class="star-blue" src="./img/blue-fill-star.png" alt="star with fill blue">
+            <img class="blue-star" src="./img/blue-fill-star.png" alt="star with fill blue">
 
-            <img class="star-blue" src="./img/blue-fill-star.png" alt="star with fill blue">
+            <img class="blue-star" src="./img/blue-fill-star.png" alt="star with fill blue">
 
-            <img class="star-blue" src="./img/blue-fill-star.png" alt="star with fill blue">
+            <img class="blue-star" src="./img/blue-fill-star.png" alt="star with fill blue">
 
             <img class="blue-half-star" src="./img/blue-half-star.png" alt="star with half blue">
 
@@ -84,11 +86,11 @@ class Star02 extends HTMLElement {
 
         <div class="hover-star">
 
-            <img class="star-white" src="./img/white-fill-star.png" alt="star with fill white">
+            <img class="white-star" src="./img/white-fill-star.png" alt="star with fill white">
 
-            <img class="star-white" src="./img/white-fill-star.png" alt="star with fill white">
+            <img class="white-star" src="./img/white-fill-star.png" alt="star with fill white">
 
-            <img class="star-white" src="./img/white-fill-star.png" alt="star with fill white">
+            <img class="white-star" src="./img/white-fill-star.png" alt="star with fill white">
 
             <img class="white-half-star" src="./img/white-half-star.png" alt="star with fill white">
 

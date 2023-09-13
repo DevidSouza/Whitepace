@@ -17,7 +17,10 @@ body {
 .header3{
     background-image: url("../img/background-servicos.jpg");
     background-position-y: 30%;
-    height: 770px;
+}
+
+.tamb03{
+    padding-bottom: 260px;
 }
 
 .service-section02 {
