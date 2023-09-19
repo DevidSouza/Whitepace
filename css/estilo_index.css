@@ -24,6 +24,10 @@ a {
     text-decoration: none;
 }
 
+section p{
+    color: grey;
+}
+
 /*=========== HEADER ============*/
 
 
