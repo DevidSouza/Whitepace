@@ -58,7 +58,6 @@
         padding-top: 180px;
         padding-bottom: 350px;
         margin: 80px;
-        /* border: 1px solid; */
     }
 
     .header-master-tamb h1 {
@@ -92,14 +91,12 @@
         width: 200%;
         height: 2650px;
         text-align: center;
-        /* border: 1px solid; */
     }
 
     .section-01 {
         display: block;
         text-align: center;
         width: 100%;
-        /* border: 1px solid; */
     }
 
     .section-02 {
@@ -116,7 +113,6 @@
         height: auto;
         text-align: left;
         font-size: 35px;
-        /* border: 1px solid; */
     }
 
     .button.mobile {
@@ -147,7 +143,6 @@
         width: 100%;
         height: auto;
         font-size: 35px;
-        /* border: 1px solid; */
     }
 
     .section-02 .section-img {
@@ -157,7 +152,6 @@
     .section-img img {
         width: 100%;
         height: 550px;
-        /* border: 1px solid; */
     }
 
 
@@ -167,7 +161,6 @@
         margin: 400px 40px 0 40px;
         height: auto;
         text-align: center;
-        /* border: 1px solid red; */
     }
 
     .section-cards h1 {
@@ -182,7 +175,6 @@
     .cards-area {
         width: 100%;
         flex-direction: column;
-        /* border: 1px solid; */
     }
 
     .cards {
@@ -237,7 +229,6 @@
         width: 200%;
         margin: 300px 40px 0 40px;
         text-align: center;
-        /* border: 1px solid; */
     }
 
     .section-logos h3 {
@@ -355,17 +346,14 @@
     .service-section {
         margin: 40px 40px 0 40px;
         width: 106%;
-        /* border: 1px solid ; */
     }
 
     .section-info {
         flex: 57%;
-        /* border: 1px solid; */
     }
 
     .section-img {
         flex: 40%;
-        /* border: 1px solid; */
     }
 
     .img-left {
@@ -385,7 +373,6 @@
         margin: 80px 40px 0 40px;
         height: auto;
         text-align: center;
-        /* border: 1px solid red; */
     }
 
     .cards-area {
@@ -449,7 +436,6 @@
 
     .section-info {
         flex: 50%;
-        /* border: 1px solid; */
     }
 
     .section-img {
@@ -476,7 +462,6 @@
         margin: 80px 40px 0 40px;
         height: auto;
         text-align: center;
-        /* border: 1px solid red; */
     }
 
     .cards-area {

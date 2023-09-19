@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo_index.css">
     <link rel="stylesheet" href="css/estilo_servico.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
     <title>Whitepace</title>
 </head>
 
 <body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    
     <header class="header-master header3">
         <nav class="navbar">
-            <a href="#navbar"><img style=" width:100%" src="img/logo.png" alt="logo do site"></a>
+            <a href="#navbar"><img src="img/logo.png" alt="logo do site"></a>
 
             <ul class="navigation">
                 <a class="navigation-btn" href="index.html">HOME</a>
@@ -22,7 +25,15 @@
                 <a class="navigation-btn" href="servicos.html">SERVIÇOS</a>
 
                 <a class="navigation-btn contact-btn" href="contato.html">CONTATO</a>
+
+                <div class="close-menu" onclick="close_menu()">
+                    <ion-icon name="close-circle-outline"></ion-icon>
+                </div>
             </ul>
+
+            <div class="menu-icon" onclick="open_menu()">
+                <ion-icon name="menu"></ion-icon>
+            </div>
         </nav>
 
         <div class="header-master-tamb tamb03">
@@ -107,6 +118,8 @@
 
         <p style="color: white;">Desenvolvido por <strong><i>Devid Souza</i></strong></p>
     </footer>
+
+    <script src="js/menu_mobile.js"></script>
 
 </body>
 
