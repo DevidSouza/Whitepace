@@ -14,66 +14,33 @@ body {
     padding: 0;
 }
 
-.header2{
+.about-header{
     background-image: url("../img/background-sobre1.jpg");
     background-position-y: 30%;
 }
 
+.header-master-tamb.tamb-about{
+    padding-bottom: 230px;
+}
 
-
-.sobre-section {
+.about-section  .conteiner{
     display: flex;
-    flex-flow: row wrap;
-    margin: 40px 80px 0 80px;
     align-items: center;
-    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.about-section .about-info{
+    width: 50%;
+    padding-right: 50px;
+}
+
+.about-section .about-img{
+    width: 50%;
+}
+
+.about-section .about-img img{
+    width: 100%;
+    border-radius: 10px;
 }
 
 
-#section-info{
-    flex: 50%;
-    /* border: 1px solid; */
-}
-
-.sobre-section h2{
-    font-size: 50px;
-}
-
-#section-img{
-    flex-direction: 48%;
-    text-align: right;
-}
-#section-img img{
-    width: 590px;
-    height: 360px;
-}
-
-@media(min-width: 360px) and (max-width: 640px) {
-    
-    .sobre-section{
-        width: 200%;
-        height: 2000px;
-        margin: 40px 40px 0 40px;
-        display: block;
-        margin-bottom: 80px;
-    }
-
-
-    #section-info{
-        top: 600px;
-    }
-
-    #section-info{
-        font-size: 40px;
-    }
-
-    #section-img{
-        top: -1390px;
-    }
-
-    #section-img img {
-        box-shadow: 0px 4px 8px 0 rgb(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        width: 100%;
-        height: 550px;
-    }
-}

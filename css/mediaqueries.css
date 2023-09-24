@@ -1,491 +1,59 @@
-@media(min-width: 360px) and (max-width: 640px) {
-    .header-master {
-        width: 220%;
-    }
+@media(max-width:870px) {
 
-    .navbar img {
-        margin: 8% 0 0 8%;
-    }
-
-    .navbar a img {
-        width: 230%;
-    }
-
+    /* Responsivo home */
     .navigation {
+        position: fixed;
         top: 0;
         left: 0;
+        background-color: rgb(16, 83, 228);
         width: 100%;
         height: 100%;
-        justify-content: center;
-        position: fixed;
         flex-direction: column;
-        background-color: rgb(8, 96, 172);
+        align-items: center;
+        justify-content: center;
         clip-path: circle(0% at 100% 0);
         transition: 1s;
-        z-index: 10;
+        z-index: 2;
     }
 
-    .navigation-btn {
-        margin: 6px 0;
-        font-size: 40px;
+    .navigation .navigation-btn {
+        margin: 10px 0;
+        font-size: 16px;
     }
 
-    .contact-btn {
-        width: 220px;
+    .navigation.open-menu {
+        clip-path: circle(141.4% at 100% 0);
+        transition: 1s;
     }
-
 
     .menu-icon {
-        display: block;
-        padding-top: 35px;
         z-index: 1;
-        font-size: 70px;
-    }
-
-    .close-menu {
-        font-size: 70px;
-        position: absolute;
-        top: 46px;
-        right: 26px;
-    }
-
-    .open-menu {
-        clip-path: circle(141.2% at 100% 0);
-    }
-
-
-    .header-master-tamb {
-        padding-top: 180px;
-        padding-bottom: 350px;
-        margin: 80px;
-    }
-
-    .header-master-tamb h1 {
-        font-size: 120px;
-    }
-
-    .header-master-tamb p {
-        font-size: 34px;
-    }
-
-    .button {
-        width: 260px;
-        height: 80px;
-        font-size: 25px;
-        border-radius: 15px;
-    }
-
-    @keyframes animar {
-        from{
-            outline: 0 solid rgba(0, 145, 255, 0.375);
-        }
-        to{
-            outline: 13px solid rgba(0, 145, 255, 0.177);
-        }
-    }
-
-
-    .service-section {
-        display: block;
-        margin: 40px 40px 0 40px;
-        width: 200%;
-        height: 2650px;
-        text-align: center;
-    }
-
-    .section-01 {
-        display: block;
-        text-align: center;
-        width: 100%;
-    }
-
-    .section-02 {
-        display: block;
-        text-align: center;
-        margin-top: 30px;
-    }
-
-
-    .section-info {
-        position: relative;
-        display: inline-block;
-        width: 98%;
-        height: auto;
-        text-align: left;
-        font-size: 35px;
-    }
-
-    .button.mobile {
-        width: 480px;
-        height: 120px;
-        font-size: 40px;
-        border-radius: 30px;
-        margin-top: 20px;
-    }
-
-    .section-01 .section-info {
-        top: 550px;
-    }
-
-    .section-02 .section-info {
-        top: 175px;
-        width: 100%;
-    }
-
-    .section-info h2 {
-        font-size: 113px;
-    }
-
-    .section-img {
-        position: relative;
-        bottom: 590px;
-        display: inline-block;
-        width: 100%;
-        height: auto;
-        font-size: 35px;
-    }
-
-    .section-02 .section-img {
-        top: 110px;
-    }
-
-    .section-img img {
-        width: 100%;
-        height: 550px;
-    }
-
-
-
-    .section-cards {
-        width: 200%;
-        margin: 400px 40px 0 40px;
-        height: auto;
-        text-align: center;
-    }
-
-    .section-cards h1 {
-        font-size: 110px;
-    }
-
-    .section-cards p {
-        font-size: 40px;
-        margin: 20px 0;
-    }
-
-    .cards-area {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .cards {
-        width: 90%;
-        margin-bottom: 6%;
-        border-radius: 50px;
-    }
-
-    .cards img {
-        max-width: 200px;
-        border-radius: 100px;
-        margin: 30px 0;
-    }
-
-
-    .cards h3 {
-        font-size: 50px;
-    }
-
-    .cards p {
-        margin: 30px 60px;
-    }
-
-    .cards-stars {
-        height: 100px;
-        border-top: 2px solid #b1b9ba;
-    }
-
-    .blue-star {
-        width: 50px;
-    }
-
-    .blue-half-star {
-        width: 50px;
-    }
-
-    .blue-border-star {
-        width: 50px;
-    }
-
-    .white-star {
-        width: 50px;
-    }
-
-    .white-border-star {
-        width: 50px;
-    }
-
-
-
-    .section-logos {
-        width: 200%;
-        margin: 300px 40px 0 40px;
-        text-align: center;
-    }
-
-    .section-logos h3 {
-        display: inline-block;
-        width: 600px;
-        text-align: center;
-        font-size: 140px;
-    }
-
-    .section-logos p {
-        font-size: 40px;
-    }
-
-    .logos img {
-        width: 100%;
-    }
-
-    .section-03 {
-        display: block;
-        width: 200%;
-        height: 1400px;
-        margin: 150px 40px 80px 40px;
-    }
-
-    .website-seguro-info p {
-        font-size: 40px;
-        margin: 12px 0;
-    }
-    
-
-    .website-seguro-info {
-        top: 600px;
-    }
-
-    .website-seguro-img {
-        width: 100%;
-        bottom: 770px;
-    }
-
-    .section-img.website-seguro-img img {
-        width: 100%;
-        height: 550px;
-    }
-
-    .footer {
-        padding-top: 120px;
-        width: 220%;
-        height: 400px;
-    }
-
-    .social-media {
-        width: 12%;
-        height: 110px;
-        border-radius: 30px;
-    }
-    .social-media.insta{
-        padding: 25px;
-    }
-
-    .footer p{
-        font-size: 36px;
-        padding-top: 20px;
-    }
-}
-
-
-
-
-@media(min-width: 768px) and (max-width: 992px) {
-
-    .header-master {
-        width: 118%;
-    }
-
-    .navigation {
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-        position: fixed;
-        flex-direction: column;
-        background-color: rgb(8, 96, 172);
-        clip-path: circle(0% at 100% 0);
-        transition: 1s;
-    }
-
-    .navigation-btn {
-        margin: 6px 0;
-        font-size: 20px;
-    }
-
-    .contact-btn {
-        width: 122px;
-    }
-
-
-
-    .open-menu {
-        clip-path: circle(141.2% at 100% 0);
-    }
-
-
-    .menu-icon {
         display: block;
     }
 
-    .close-menu {
-        position: absolute;
-        top: 46px;
-        right: 26px;
+    .conteiner01 .conteiner01-info {
+        width: 100%;
+        order: 1;
     }
 
-
-    .service-section {
-        margin: 40px 40px 0 40px;
-        width: 106%;
-    }
-
-    .section-info {
-        flex: 57%;
-    }
-
-    .section-img {
-        flex: 40%;
-    }
-
-    .img-left {
-        position: relative;
-        left: -40px;
-    }
-
-    .section-img img {
-        width: 350px;
-        height: 250px;
-    }
-
-
-
-    .section-cards {
-        width: 106%;
-        margin: 80px 40px 0 40px;
-        height: auto;
-        text-align: center;
-    }
-
-    .cards-area {
+    .conteiner01 .conteiner01-img {
         width: 100%;
     }
 
-    .cards {
-        width: 30%;
-    }
-
-
-    .section-logos {
-        width: 106%;
-        margin: 80px 40px 0 40px;
-        text-align: center;
-    }
-
-    .logos img {
-        width: 24%;
-    }
-
-    .section-03 {
-        width: 106%;
-        margin: 150px 40px 0 40px;
-        margin-bottom: 50px;
-    }
-
-    .website-seguro-info {
-        flex: 60%;
-    }
-
-    .website-seguro-img {
-        flex: 40%;
-    }
-
-    .section-img.website-seguro-img img {
-        width: 320px;
-        height: 250px;
-    }
-
-    .footer {
-        width: 118%;
-    }
-}
-
-
-@media (min-width: 1024px) and (max-width: 1365px) {
-    .header-master {
-        width: 110%;
-    }
-
-    .navbar {
-        width: 100%;
-        margin: 0 5% 0 5%;
-        padding: 20px 0;
-    }
-
-    .navigation-contact {
-        width: 15%;
-    }
-
-    .section-info {
-        flex: 50%;
-    }
-
-    .section-img {
-        flex: 47%;
-        text-align: right;
-    }
-
-    .section-img img {
-        width: 350px;
-        height: 250px;
-    }
-
-    .img-left {
-        position: relative;
-        left: -40px;
-        text-align: left;
-    }
-
-
-
-
-    .section-cards {
-        width: 106%;
-        margin: 80px 40px 0 40px;
-        height: auto;
-        text-align: center;
-    }
-
-    .cards-area {
+    .conteiner02 .conteiner02-info {
         width: 100%;
     }
 
-    .cards {
-        width: 30%;
-    }
-
-
-
-
-    .section-logos {
+    .conteiner02 .conteiner02-img {
         width: 100%;
-        margin: 80px 40px 0 40px;
-        text-align: center;
     }
 
-    .logos img {
-        width: 24%;
+    .conteiner03 .conteiner03-info {
+        width: 100%;
+        order: 1;
     }
 
-    .footer {
-        width: 110%;
+    .conteiner03 .conteiner03-img {
+        width: 100%;
     }
 }

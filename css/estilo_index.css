@@ -20,12 +20,24 @@ body {
     padding: 0;
 }
 
+section {
+    margin: 0 60px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
 a {
     text-decoration: none;
 }
 
-section p{
+section p {
     color: grey;
+}
+
+p {
+    margin: 5px 0;
 }
 
 /*=========== HEADER ============*/
@@ -36,7 +48,6 @@ section p{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    justify-content: center;
     margin: 0 auto;
     padding: 0 5%;
 }
@@ -54,16 +65,12 @@ section p{
 }
 
 .navigation {
-    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: right;
-    width: 80%;
-    transition: 1s;
 }
 
 .navigation-btn {
-    /* border: 1px solid; */
     margin: 0 25px;
     text-align: center;
     color: white;
@@ -118,28 +125,30 @@ section p{
     color: white;
 }
 
-.close-menu{
+.close-menu {
     display: none;
+    position: absolute;
     cursor: pointer;
     font-size: 40px;
     color: white;
+    top: 40px;
+    right: 40px;
 }
 
 
 .header-master-tamb {
-    margin: 150px;
+    margin: 100px;
     padding-bottom: 150px;
     text-align: center;
     color: white;
 }
 
-.header-master-tamb h1{
+.header-master-tamb h1 {
     font-size: 96px;
 }
 
 
 .header-master-tamb p {
-    margin: 18px 0;
     font-weight: lighter;
 }
 
@@ -155,57 +164,83 @@ section p{
     align-items: center;
     font-family: 'Inter', sans-serif;
     animation: animar 1.1s ease-out infinite;
+    margin: 5px 0;
 }
 
-.button:hover{
+.button:hover {
     background-color: rgb(18, 144, 212);
 }
 
 
 @keyframes animar {
-    from{
+    from {
         outline: 0 solid rgba(0, 145, 255, 0.375);
     }
-    to{
+
+    to {
         outline: 13px solid rgba(0, 145, 255, 0);
     }
 }
 
 
 /*=========== SESSAO-01 ============*/
-.service-section {
+
+.conteiner01 {
     display: flex;
-    flex-flow: row wrap;
-    margin: 40px 80px 0 80px;
+    flex-wrap: wrap;
     align-items: center;
 }
 
-.section-01 {
-    display: flex;
-    width: 100%;
-    align-items: center;
+.conteiner01 .conteiner01-info {
+    width: 50%;
 }
 
-.section-info {
-    flex: 48%;
-}
-.section-info p{
-    margin: 10px 0;
-}
-
-.section-info h2{
+.conteiner01 .conteiner01-info h2 {
     font-size: 50px;
 }
 
-.section-img {
-    flex: 52%;
+.conteiner01-img {
+    padding-left: 50px;
+    width: 50%;
 }
 
-.section-02 {
+.conteiner02 {
     display: flex;
-    width: 100%;
-    margin-top: 150px;
+    flex-wrap: wrap;
+    margin-top: 120px;
     align-items: center;
+}
+
+.conteiner02 .conteiner02-info {
+    width: 50%;
+}
+
+.conteiner02 .conteiner02-info h2 {
+    font-size: 50px;
+}
+
+.conteiner02-img {
+    width: 50%;
+}
+
+.conteiner03 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    align-items: center;
+}
+
+.conteiner03 .conteiner03-info {
+    width: 50%;
+}
+
+.conteiner03 .conteiner03-info h2 {
+    font-size: 50px;
+}
+
+.conteiner03-img {
+    padding-left: 50px;
+    width: 50%;
 }
 
 
@@ -219,7 +254,7 @@ section p{
     /* border: 1px solid red; */
 }
 
-.section-cards h1{
+.section-cards h1 {
     font-size: 40px;
 }
 
@@ -242,7 +277,7 @@ section p{
     background-color: rgb(169, 211, 228);
 }
 
-.cards img{
+.cards img {
     max-width: 60px;
     border-radius: 50px;
     margin-bottom: 10px;
@@ -250,6 +285,7 @@ section p{
 
 
 .cards h3 {
+    font-size: 20px;
     transition: .5s;
     color: rgb(58, 55, 55);
 }
@@ -288,30 +324,17 @@ section p{
     text-align: center;
 }
 
-.section-logos h3{
+.section-logos h3 {
     font-size: 40px;
 }
 
-.section-03 {
-    display: flex;
-    margin: 150px 80px 50px 80px;
-    align-items: end;
-}
-
-.website-seguro-info {
-    flex: 44%;
-}
-
-.website-seguro-img {
-    flex: 56%;
-    text-align: center;
-}
 
 .footer {
     background-color: var(--ifm-light-blue);
-    height: 200px;
+    padding: 70px;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 8%;
+    margin-top: 80px;
 }
 
 
@@ -322,7 +345,7 @@ section p{
     border-radius: 10px;
 }
 
-.social-media.insta{
+.social-media.insta {
     padding: 10px;
 }
 
