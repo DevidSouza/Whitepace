@@ -48,8 +48,8 @@ p {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    margin: 0 auto;
-    padding: 0 5%;
+    border: 1px solid rgba(4, 56, 186, 0.25);
+    margin-bottom: 80px;
 }
 
 
@@ -57,6 +57,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 20px;
     padding-top: 30px;
 }
 
@@ -137,8 +138,7 @@ p {
 
 
 .header-master-tamb {
-    margin: 100px;
-    padding-bottom: 150px;
+    margin: 150px;
     text-align: center;
     color: white;
 }
@@ -199,7 +199,7 @@ p {
     font-size: 50px;
 }
 
-.conteiner01-img {
+.conteiner01 .conteiner01-img {
     padding-left: 50px;
     width: 50%;
 }
@@ -219,7 +219,7 @@ p {
     font-size: 50px;
 }
 
-.conteiner02-img {
+.conteiner02 .conteiner02-img {
     width: 50%;
 }
 
@@ -238,7 +238,7 @@ p {
     font-size: 50px;
 }
 
-.conteiner03-img {
+.conteiner03 .conteiner03-img {
     padding-left: 50px;
     width: 50%;
 }

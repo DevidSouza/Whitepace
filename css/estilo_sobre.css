@@ -20,7 +20,7 @@ body {
 }
 
 .header-master-tamb.tamb-about{
-    padding-bottom: 230px;
+    margin-bottom: 230px;
 }
 
 .about-section  .conteiner{
@@ -29,16 +29,16 @@ body {
     justify-content: space-between;
 }
 
-.about-section .about-info{
+.about-section .conteiner .about-info{
     width: 50%;
     padding-right: 50px;
 }
 
-.about-section .about-img{
+.about-section .conteiner .about-img{
     width: 50%;
 }
 
-.about-section .about-img img{
+.about-section .conteiner .about-img img{
     width: 100%;
     border-radius: 10px;
 }

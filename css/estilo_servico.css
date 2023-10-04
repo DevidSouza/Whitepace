@@ -19,9 +19,12 @@ body {
     background-position-y: 30%;
 }
 
+.header-master-tamb.tamb-service {
+    margin-bottom: 230px;
+}
+
 .service-section {
     text-align: center;
-    /* border: 1px solid; */
 }
 
 .service-area-cards {

@@ -1,6 +1,18 @@
 @media(max-width:870px) {
 
-    /* Responsivo home */
+    /* RESPONSIVO HOME */
+    p {
+        font-size: 15px;
+    }
+
+    section {
+        margin: 40px;
+    }
+
+    .header-master {
+        margin-bottom: 50px;
+    }
+
     .navigation {
         position: fixed;
         top: 0;
@@ -18,7 +30,7 @@
 
     .navigation .navigation-btn {
         margin: 10px 0;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .navigation.open-menu {
@@ -26,13 +38,38 @@
         transition: 1s;
     }
 
+    .navigation-btn.contact-btn {
+        width: 150px;
+        padding: 13px 15px;
+    }
+
+    .button-mobile {
+        width: 170px;
+        height: 45px;
+        font-size: 15px;
+    }
+
     .menu-icon {
         z-index: 1;
         display: block;
     }
 
+
+
+    .header-master-tamb {
+        margin: 190px 60px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .header-master-tamb h1 {
+        font-size: 80px;
+    }
+
+
     .conteiner01 .conteiner01-info {
         width: 100%;
+        margin: 20px 0;
         order: 1;
     }
 
@@ -40,20 +77,137 @@
         width: 100%;
     }
 
+    .conteiner02 {
+        margin: 30px 0;
+    }
+
     .conteiner02 .conteiner02-info {
         width: 100%;
+        margin: 20px 0;
     }
 
     .conteiner02 .conteiner02-img {
+        text-align: center;
         width: 100%;
+    }
+
+    .conteiner03 {
+        margin: 30px 0;
     }
 
     .conteiner03 .conteiner03-info {
         width: 100%;
+        margin: 20px 0;
         order: 1;
     }
 
     .conteiner03 .conteiner03-img {
         width: 100%;
+    }
+
+    .section-cards {
+        margin: 80px 80px 0 80px;
+        height: auto;
+        text-align: center;
+    }
+
+    .section-cards h1 {
+        font-size: 40px;
+    }
+
+    .cards-area {
+        flex-flow: column wrap;
+    }
+
+    .cards {
+        cursor: pointer;
+        transition: all .5s;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        margin: 1%;
+        padding-top: 20px;
+        border-radius: 10px;
+        background-color: rgb(169, 211, 228);
+    }
+
+    .footer {
+        padding: 50px;
+        font-size: 30px;
+    }
+
+    .footer .insta {
+        padding: 7px;
+    }
+
+
+    /* RESPONSIVO SOBRE */
+    .header-master-tamb.tamb-about {
+        margin: 190px 60px;
+    }
+
+    .about-section .conteiner {
+        flex-flow: column wrap;
+    }
+
+    .about-section .conteiner .about-info {
+        width: 100%;
+        margin-top: 30px;
+        order: 1;
+    }
+
+    .about-section .conteiner .about-img {
+        width: 100%;
+    }
+
+    .about-section .conteiner .about-img img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+
+    /* RESPONSIVO SERVIÇO */
+    .header-master-tamb.tamb-service {
+        margin: 240px 60px;
+    }
+
+}
+
+@media(min-width:871px) and (max-width:1024px) {
+
+    /* RESPONSIVO HOME */
+    .conteiner01-img img {
+        width: 90%;
+    }
+
+    .conteiner02-img img {
+        width: 90%;
+    }
+
+    .conteiner03-img img {
+        width: 90%;
+    }
+
+    /* RESPONSIVO SOBRE */
+
+    .conteiner {
+        flex-flow: column wrap;
+    }
+
+    .about-section .conteiner .about-info {
+        margin: 0;
+        width: 100%;
+        margin-top: 30px;
+        order: 1;
+    }
+
+    .about-section .conteiner .about-img {
+        width: 100%;
+    }
+
+    .button-mobile {
+        width: 180px;
+        height: 50px;
+        font-size: 15px;
     }
 }
