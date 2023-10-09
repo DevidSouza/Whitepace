@@ -1,14 +1,10 @@
 @media(min-width:425px) and (max-width:670px) {
 
-    .navbar {
-        border: 1px solid;
-    }
     .navbar a img {
         width: 80%;
     }
 
     .header-master-tamb#mobile-tamb{
-        border: 1px solid;
         margin: 120px 40px;
     }
     
