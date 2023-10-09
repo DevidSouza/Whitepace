@@ -1,3 +1,51 @@
+@media(min-width:425px) and (max-width:670px) {
+
+    .navbar {
+        border: 1px solid;
+    }
+    .navbar a img {
+        width: 80%;
+    }
+
+    .header-master-tamb#mobile-tamb{
+        border: 1px solid;
+        margin: 120px 40px;
+    }
+    
+    .header-master-tamb #mobile-title {
+        font-size: 60px;
+    }
+
+
+    .conteiner01 .conteiner01-info h2 {
+        font-size: 40px;
+    }
+    .conteiner02 .conteiner02-info h2 {
+        font-size: 40px;
+    }
+    .conteiner03 .conteiner03-info h2 {
+        font-size: 40px;
+    }
+
+    
+    .conteiner01 .conteiner01-img img {
+        width: 100%;
+    }
+    .conteiner02 .conteiner02-img img {
+        width: 100%;
+    }
+    .conteiner03 .conteiner03-img img {
+        width: 100%;
+    }
+
+
+    .social-media#mobile-size {
+        width: 40px;
+    }
+
+}
+
+
 @media(max-width:870px) {
 
     /* RESPONSIVO HOME */
@@ -43,7 +91,7 @@
         padding: 13px 15px;
     }
 
-    .button-mobile {
+    .button.button-mobile {
         width: 170px;
         height: 45px;
         font-size: 15px;
@@ -75,6 +123,8 @@
 
     .conteiner01 .conteiner01-img {
         width: 100%;
+        padding: 0;
+        text-align: center;
     }
 
     .conteiner02 {
@@ -103,12 +153,12 @@
 
     .conteiner03 .conteiner03-img {
         width: 100%;
+        padding: 0;
+        text-align: center;
     }
 
     .section-cards {
-        margin: 80px 80px 0 80px;
-        height: auto;
-        text-align: center;
+        margin: 40px 40px 0 40px;
     }
 
     .section-cards h1 {
@@ -120,24 +170,24 @@
     }
 
     .cards {
-        cursor: pointer;
-        transition: all .5s;
-        text-align: center;
         width: 100%;
-        height: auto;
-        margin: 1%;
-        padding-top: 20px;
-        border-radius: 10px;
-        background-color: rgb(169, 211, 228);
+    }
+
+    .section-logos {
+        margin: 40px 40px 0 40px;
     }
 
     .footer {
         padding: 50px;
-        font-size: 30px;
     }
 
-    .footer .insta {
-        padding: 7px;
+    .social-media {
+        border-radius: 15px;
+        width: 45px;
+    }
+
+    .social-media.insta {
+        padding: 8px;
     }
 
 
@@ -169,6 +219,29 @@
     /* RESPONSIVO SERVIÇO */
     .header-master-tamb.tamb-service {
         margin: 240px 60px;
+    }
+
+    .footer#sem-margin-top {
+        margin: 0;
+    }
+
+
+    /* RESPONSIVO CONTATO */
+    .header-master-tamb.tamb-contact {
+        margin: 190px 60px;
+    }
+
+    .container-contact-form {
+        flex-flow: column wrap;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .form {
+        width: 100%;
+        margin-top: 40px;
     }
 
 }
@@ -209,5 +282,18 @@
         width: 180px;
         height: 50px;
         font-size: 15px;
+    }
+
+    .footer p {
+        font-size: 18px;
+    }
+
+    .social-media {
+        border-radius: 15px;
+        width: 45px;
+    }
+
+    .social-media.insta {
+        padding: 7px;
     }
 }

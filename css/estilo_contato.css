@@ -14,8 +14,12 @@ body {
     padding: 0;
 }
 
-.header4 {
+.header-master.header4 {
     background-image: url("../img/background-contacto.jpg");
+}
+
+.header-master-tamb.tamb-contact{
+    margin-bottom: 130px;
 }
 
 .contact-service {
@@ -35,7 +39,6 @@ body {
     flex-flow: row wrap;
     width: 100%;
     margin: 40px 0 0 0;
-    /* border: 1px solid; */
 }
 
 .contact {
