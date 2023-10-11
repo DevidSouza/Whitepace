@@ -1,5 +1,6 @@
 @media(min-width:375px) and (max-width:570px) {
 
+    /* RESPONSIVO HOME */
     .navbar a img {
         width: 80%;
     }
@@ -37,6 +38,24 @@
 
     .social-media#mobile-size {
         width: 40px;
+    }
+
+
+    /* RESPONSIVO SOBRE */
+    .header-master-tamb#mobile-tamb-about{
+        margin: 100px 20px;
+    }
+
+
+    /* RESPONSIVO SERVIÇOS */
+    .header-master-tamb#mobile-tamb-service{
+        margin: 170px 20px;
+    }
+
+
+    /* RESPONSIVO CONTATO */
+    .header-master-tamb#mobile-tamb-contact{
+        margin: 90px 20px;
     }
 
 }
@@ -217,7 +236,7 @@
         margin: 240px 60px;
     }
 
-    .footer#sem-margin-top {
+    .footer#servico-sem-margin-top {
         margin: 0;
     }
 
